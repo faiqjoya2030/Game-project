@@ -24,6 +24,7 @@ The project is organized into several modules:
 - **Color Module**: Defines colors for different tetrominoes.
 
 The project contains 7 `.cpp` files and 5 header files that implement the core functionality of the Tetris game.
+## Architecture Diagram
 
 
 ## How to Run and Deploy the Project
