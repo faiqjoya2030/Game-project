@@ -25,6 +25,7 @@ The project is organized into several modules:
 
 The project contains 7 `.cpp` files and 5 header files that implement the core functionality of the Tetris game.
 ## Architecture Diagram
+**
 +-----------------------+
 |        Main           |
 | - Initialize Window   |
@@ -76,7 +77,7 @@ The project contains 7 `.cpp` files and 5 header files that implement the core f
 |        Color          |
 | - Define Colors       |
 | - Get Colors          |
-+-----------------------+
++-----------------------+**
 
 
 
