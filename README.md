@@ -25,61 +25,6 @@ The project is organized into several modules:
 
 The project contains 7 `.cpp` files and 5 header files that implement the core functionality of the Tetris game.
 
-### Architecture Diagram
-*
-+-----------------------+
-|        Main           |
-| - Initialize Window   |
-| - Game Loop           |
-| - Draw                |
-| - Handle Input        |
-+-----------------------+
-            |
-            v
-+-----------------------+
-|        Game           |
-| - Current Block       |
-| - Next Block          |
-| - Move Block          |
-| - Rotate Block        |
-| - Lock Block          |
-| - Check Game Over     |
-+-----------------------+
-            |
-            v
-+-----------------------+
-|        Grid           |
-| - Initialize Grid     |
-| - Draw Grid           |
-| - Check Full Row      |
-| - Clear Row           |
-| - Move Rows Down      |
-+-----------------------+
-            |
-            v
-+-----------------------+
-|        Block          |
-| - Block Shapes        |
-| - Get Positions       |
-| - Draw Block          |
-| - Rotate              |
-| - Move                |
-+-----------------------+
-            |
-            v
-+-----------------------+
-|       Position        |
-| - Row                 |
-| - Column              |
-+-----------------------+
-            |
-            v
-+-----------------------+
-|        Color          |
-| - Define Colors       |
-| - Get Colors          |
-+-----------------------+
-*
 
 ## How to Run and Deploy the Project
 
@@ -90,37 +35,37 @@ The project contains 7 `.cpp` files and 5 header files that implement the core f
 
 ### Setup Instructions
 1. **Ensure the following requirements are installed:**
-   - Visual Studio Community 2022
-   - Raylib
-   - vcpkg for package management
+  -**Visual Studio Community 2022**
+  -**Raylib**
+  -**vcpkg** for package management
 
 2. **Clone the Repository**:
    
-3.**Open the Project in Visual Studio**:
-    -Open Visual Studio Community 2022.
-    -Open the TetrisGame project.
+3. **Open the Project in Visual Studio**:
+  -**Open Visual Studio Community 2022.**
+  -**Open the TetrisGame project.**
 
-4.**Build and Run the Project:**
-    -Build the solution in Visual Studio.
-    -Run the project to start the game.
+4. **Build and Run the Project:**
+  -**Build the solution in Visual Studio.**
+  -**Run the project to start the game.**
 
-###Detailed Documentation
+### Detailed Documentation
 1. **Initial Setup:**
-   -Install Raylib and vcpkg.
-   -Set up Visual Studio for C++ development.
-2.**Game Logic**:
-   -Implement block movements and rotations.
-   -Handle user inputs and keypress events.
+  -**Install Raylib and vcpkg.**
+  -**Set up Visual Studio for C++ development.**
+2. **Game Logic**:
+  -**Implement block movements and rotations.**
+  -**Handle user inputs and keypress events.**
 
-3.**Grid Management**:
-   -Manage and draw the game grid.
-   -Implement collision detection and block placement logic.
+3. **Grid Management**:
+  -**Manage and draw the game grid.**
+  -**Implement collision detection and block placement logic.** 
 
-4.**Scoring and Levels**:
-  -Implement scoring system and level progression.
-  -Enhance rendering module for visual feedback.
+4. **Scoring and Levels**:
+  -**Implement scoring system and level progression.**
+  -**Enhance rendering module for visual feedback.**
 
-5.**Game Over and Restart Logic**:
-  -Implement game over conditions.
-  -Provide options to restart the game.
+5. **Game Over and Restart Logic**:
+  -**Implement game over conditions.**
+  -**Provide options to restart the game.**
 
